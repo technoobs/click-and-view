@@ -1,0 +1,188 @@
+
+#about {
+  visibility: visible;
+}
+
+/* ---------------------------------------------- */
+#head-div {
+  width: 100%;
+  height: 5rem;
+  /* background-color: black; */
+  /* overflow: hidden; */
+}
+
+#logo-div {
+  width: 15%;
+  height: 100%;
+  background-color: pink;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nav-div {
+  width: 100%;
+  height: 100%;
+  /* display: inline-block; */
+  /* float: left; */
+}
+
+#nav-div .logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #1E90FF;
+  font-weight: bold;
+}
+
+#nav-div .head-button {
+  margin: 4px;
+  float: right;
+  /* position: fixed; */
+}
+
+#nav-div .head-button-login {
+  color: blue;
+}
+
+#body-div-home {
+  margin-top: 9rem;
+  height: 100%;
+}
+
+#body-div-products {
+  margin-top: 4rem;
+  height: 100%;
+  background-color: #F0F8FF;
+  padding-top: 2rem;
+}
+
+#body-div-demos {
+  margin-top: 5rem;
+  height: 100%;
+}
+
+#body-div-about {
+  margin-top: 6rem;
+  height: 100%;
+}
+
+#body-brief-div {
+  margin-top: 2rem;
+  text-align: center;
+  /* background: pink; */
+}
+
+#body-brief-div .title {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: monospace;
+  color: black;
+}
+
+#body-brief-div .brief-body {
+  font-size: 20px;
+  font-family: cursive;
+  color: black;
+}
+
+/* .body-tree-view {
+  btn;
+  btn-primary;
+} */
+
+.tree-view {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.left-branch-view {
+  /* text-align: left; */
+  font-size: 40px;
+}
+
+.right-branch-view {
+  /* text-align: right; */
+  font-size: 40px;
+}
+
+.left-branch-content {
+  /* color: black; */
+  /* margin-left: 4rem; */
+  /* color: white; */
+  /* background-color: yellow; */
+}
+
+.right-branch-content {
+  /* margin-right: 4rem; */
+  /* color: black; */
+}
+
+/* blue */
+.branchColor-first {
+  color: white;
+  background-color: #1E90FF;
+}
+
+/* whte */
+.branchColor-second {
+  color: black;
+  background-color: #DCDCDC;
+}
+
+/* black */
+.branchColor-third {
+  color: white;
+  background-color: black;
+  /* background-color: #696969; */
+}
+
+.branch-row {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  /* margin-top: 2rem; */
+  /* background-color: yellow; */
+}
+
+.contentTag {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #800080;
+}
+
+.contentTitle {
+  font-weight: bold;
+}
+
+.contentDesc {
+  font-size: 18px;
+}
+
+.odd-branchButton {
+  display: block;
+  float: left;
+  margin-left: -0.5rem;
+  bottom: 0;
+  /* width: 200px; */
+}
+
+.test {
+  font-size: 10px;
+}
+
+/* #ui-div {
+  background-color: yellow;
+}
+
+.ui-div > a {
+  font-weight: bold;
+  color: black;
+} */

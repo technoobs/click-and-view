@@ -1,0 +1,142 @@
+
+#demo-page-div {
+  /* background-color: red; */
+  margin-top: 5rem;
+  display: block;
+}
+
+#demo-page-head-div {
+  /* background-color: yellow; */
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 5rem;
+  text-align: center;
+  /* padding: 10px; */
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}
+
+#demo-page-body-div {
+  /* background-color: grey; */
+  padding: 5px;
+}
+
+.demo-content-div {
+  padding: 10px;
+}
+
+.demo-content-header {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+#ui-collection-header {
+  border-top: 4px solid blue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#ui-coll-content-div {
+  display: block;
+  padding: 20px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+#ui-collection-description {
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+  text-align: justify;
+  padding: 4px;
+  margin-top: 1rem;
+}
+
+#ui-popular-author {
+  margin-top: 2rem;
+  /* text-align: center; */
+  width: 100%;
+  background-color: yellow;
+}
+
+#ui-popular-designer-row {
+  width: 100%;
+  margin: 0px;
+  /* height: 20px; */
+  /* background-color: pink; */
+}
+
+#ui-popular-designer-name {
+  font-size: 15px;
+  font-weight: 600;
+  /* font-family: cursive; */
+  /* text-align: center; */
+  padding: 2px;
+  color: red;
+  /* background-color: grey; */
+}
+
+.general-designer-tag {
+  display: inline-block;
+  height: 100%;
+  width: 11rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border: 1px solid grey;
+  border-radius: 12px;
+  background-color: #87CEFA;
+}
+
+.designer-tag-row {
+  width: 100%;
+  margin: 0px;
+  /* margin-left: 1px; */
+}
+
+.designer-tag-img-div {
+  width: 30%;
+  height: 100%;
+  padding: 0.5px;
+  margin-right: 1px;
+  display: inline-block;
+  /* float: left; */
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid grey;
+}
+
+.designer-tag-name-div {
+  width: 69%;
+  height: 100%;
+  padding: 1px;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.designer-tag-image {
+  width: 30px;
+  height: 30px;
+}
+
+#truncateLongTexts {
+  /* display: inline-block; */
+  width: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-overflow {
+  display: block;
+  width: 100%;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
