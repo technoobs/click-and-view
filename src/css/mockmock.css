@@ -1,0 +1,105 @@
+
+#mockmock-div {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  /* background-color: yellow; */
+}
+
+#mockmock-intro {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  /* background-color: red; */
+}
+
+#mockmock-intro p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#mockmock-steps {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: block;
+  text-align: center;
+  /* background-color: green; */
+}
+
+.step-instructions {
+  margin: 1rem;
+  text-align: left;
+}
+
+.step-instructions h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.step-instructions span {
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+
+.mockmock-randomUser {
+
+}
+
+.note {
+  display: block;
+  width: 35%;
+  border: 1px solid #495057;
+  margin-top: 1rem;
+  margin-right: 0px;
+  margin-bottom: 1em;
+  margin-left: 0px;
+}
+
+.note .label {
+  display: block;
+  text-align: left;
+  /* background-color: #2b8a3e; */
+  background-color: #1E90FF;
+  color: #fefefe;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+.note .content {
+  background: #f8f9fa;
+  line-height: 120%;
+  font-size: 0.9em;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+.mm-step {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  /* background-color: red; */
+}
+
+#mm-userloginForm {
+  display: inline-block;
+  width: 32%;
+}
+
+#mm-apiKeyForm {
+  display: inline-block;
+  width: 40%;
+  background-color: red;
+  /* padding: 1rem; */
+}
+
+.mock-btn-primary {
+  background-color: #1E90FF;
+}

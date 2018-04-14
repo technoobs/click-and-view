@@ -17,6 +17,7 @@ import AppBody from './AppBody.jsx';
 import UIPage from './CodeCollection.jsx';
 import UserConsole from './UserService.jsx';
 import MockServicePage from './MockServicePage.jsx';
+import StandaloneMock from './StandaloneMock.jsx';
 import Demos from './Demos.jsx';
 import DemoPage from './DemoPage.jsx';
 import About from './About.jsx';
@@ -140,6 +141,11 @@ class ClickNavBar extends React.Component {
           <Route exact path="/about" render={() =>
             <div id="body-div-about">
               <About />
+            </div>} />
+
+          <Route exact path="/mockmock" render={() =>
+            <div id="body-div-demos">
+              <StandaloneMock />
             </div>} />
         </div>
       </BrowserRouter>

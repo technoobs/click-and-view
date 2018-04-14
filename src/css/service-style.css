@@ -1,4 +1,25 @@
 
+.product-div {
+  padding: 5px;
+  background-color: pink;
+}
+
+.product-header-div {
+  margin-top: 1rem;
+  background-color: grey;
+  text-align: left;
+}
+
+.product-description-div {
+  margin-top: 0.5rem;
+  background-color: yellow;
+}
+
+.product-content-div {
+  margin: 1rem;
+  background-color: green;
+}
+
 #demo-page-div {
   /* background-color: red; */
   margin-top: 5rem;

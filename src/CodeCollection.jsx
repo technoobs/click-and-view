@@ -36,29 +36,12 @@ class UIPage extends React.Component {
   render() {
     return(
       <div id="ui-coll-content-div">
-        <span id="ui-collection-header">
+        {/* <span id="ui-collection-header">
           <ServiceHead name={this.uiTitle} />
-        </span>
+        </span> */}
+        <ServiceHead name={this.uiTitle} />
         <UIDescription />
         <PopularDesignerList />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
         <span>asd</span>
       </div>
     )
